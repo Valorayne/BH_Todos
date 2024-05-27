@@ -18,6 +18,7 @@ namespace Todos.Source.Components
             _settings = settings;
             _todoList = todoList;
 
+            Priority = 64530307;
             Visible = true;
 
             _icon = todoList.OpenTodos.CombineWith(settings.WindowMinimized, settings.ColorMenuIcon,
